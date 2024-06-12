@@ -11,6 +11,8 @@ pip3 install -r requirements.txt
 ### demo
 
 ```bash
+pip install git+https://github.com/ironboxer/dg_sdk
+
 export $(xargs < .env)
 
 python3 demo.py
