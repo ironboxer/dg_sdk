@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 import base64
-from Crypto.Cipher import PKCS1_v1_5 as Cipher_pkcs1_v1_5  # 加密解密模块
-from Crypto.Hash import SHA256
-from Crypto.PublicKey import RSA
-from Crypto.Signature import pkcs1_15  # 加签验签模块
+from Cryptodome.Cipher import PKCS1_v1_5 as Cipher_pkcs1_v1_5  # 加密解密模块
+from Cryptodome.Hash import SHA256
+from Cryptodome.PublicKey import RSA
+from Cryptodome.Signature import pkcs1_15  # 加签验签模块
 
 
 #  公钥加密，单次加密串的长度最大为(key_size/8 - 11)，本次以2048为例

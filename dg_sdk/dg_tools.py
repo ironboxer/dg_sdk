@@ -1,7 +1,7 @@
 from dg_sdk.core.rsa_utils import rsa_design, rsa_long_encrypt
 from dg_sdk.request_tools import request_post
 from dg_sdk.dg_client import DGClient
-from Crypto.Hash import MD5
+from Cryptodome.Hash import MD5
 from dg_sdk.core.api_request import verify_sign
 
 
